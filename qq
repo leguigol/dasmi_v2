@@ -1,0 +1,145 @@
+[33mcommit b3c22423269584ec4d3721238ae4af17b65927b8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: legui <leguigol@gmail.com>
+Date:   Thu Feb 22 19:11:39 2024 -0300
+
+    estado de internaciones ok
+
+[33mcommit b0b80fc4432200dfed03711be3cee0930822a308[m
+Author: legui <leguigol@gmail.com>
+Date:   Thu Feb 22 08:54:58 2024 -0300
+
+    estado de internacion
+
+[33mcommit c5b5b5e40dd5df65c16fd8a4b34d69eaeb37ab8c[m
+Author: Sergio Leguizamon <leguigol@hotmail.com>
+Date:   Tue Feb 20 16:26:59 2024 -0300
+
+    ultimas modificaciones en fatfa
+
+[33mcommit 6873932cc0b21064b384dbf9c4381c47045a0c5a[m
+Author: Sergio Leguizamon <leguigol@hotmail.com>
+Date:   Mon Feb 19 16:32:45 2024 -0300
+
+    ultimas modificaciones 19/2/24, estado de internaciones, rol de auditor
+
+[33mcommit 1896f8cb22a773bf790750172d36bb52860475a1[m
+Author: unknown <leguigol@hotmail.com>
+Date:   Fri Jan 19 20:51:12 2024 -0300
+
+    listo internaciones
+
+[33mcommit 0bf998dfe17dbca878fb201ea8ff6a81d38ec249[m
+Author: Legui <leguigol@hotmail.com>
+Date:   Sun Jan 14 11:47:58 2024 -0300
+
+    ultimas modificaciones en farmacia
+
+[33mcommit 688214d40ffdd0927804a6158fe912a4fc0b3626[m
+Author: Legui <leguigol@hotmail.com>
+Date:   Wed Dec 27 12:46:37 2023 -0300
+
+    se agrega la parte de crecimiento
+
+[33mcommit 5872e599f6cc193271c8659bd678ac30735ac72d[m
+Author: Legui <leguigol@hotmail.com>
+Date:   Fri Dec 15 17:00:21 2023 -0300
+
+    le cargue datos de ninas percentil50
+
+[33mcommit b0e9a1104696a8b379269ba741529d5b0a373bcc[m
+Merge: 56cd61b 205d9c2
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Dec 15 11:02:03 2023 -0300
+
+    Merge branch 'main' of https://github.com/leguigol/dasmi
+
+[33mcommit 56cd61beabe7679b97710839c1e7e8294cd17ac1[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Dec 15 10:12:03 2023 -0300
+
+    first commit
+
+[33mcommit 69dba2ef1f5ea635ac36d6045903bf03c81eae41[m
+Merge: 60ec943 ad40d31
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Dec 15 09:51:14 2023 -0300
+
+    Merge branch 'main' of https://github.com/leguigol/dasmi
+
+[33mcommit 205d9c2a00047f39636f751dd888cdd22f545368[m
+Author: leguigol <49722862+leguigol@users.noreply.github.com>
+Date:   Fri Dec 15 09:50:02 2023 -0300
+
+    Delete dasmi.zip
+
+[33mcommit ad40d31ffa82ad92ca49197321d5553beec00416[m
+Author: leguigol <49722862+leguigol@users.noreply.github.com>
+Date:   Fri Dec 15 09:50:02 2023 -0300
+
+    Delete dasmi.zip
+
+[33mcommit 60ec9433a72e844636111e66624830d597af59fa[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Dec 15 09:47:40 2023 -0300
+
+    ultimas modificaciones
+
+[33mcommit ff0605b102e421e476c9178adbf1b2e8e0fb7a77[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Dec 15 09:46:28 2023 -0300
+
+    ultimas modificaciones
+
+[33mcommit e911ded59ce23743de9a8bd1cc7c33702ca6145e[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Oct 20 12:46:00 2023 -0300
+
+    vacunas ok
+
+[33mcommit 228b6906f39beb38fab40e8b0e07899037dbc524[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Oct 20 12:46:00 2023 -0300
+
+    vacunas ok
+
+[33mcommit 142a3d4d9f54667af4ad24057f116c5dbacb1281[m
+Author: legui <leguigol@hotmail.com>
+Date:   Thu Oct 19 23:06:23 2023 -0300
+
+    vacunas terminadas
+
+[33mcommit abb158239e75d8df0699db555a8a7c08e3900aba[m
+Author: legui <leguigol@hotmail.com>
+Date:   Thu Oct 19 23:04:06 2023 -0300
+
+    vacunas terminadas
+
+[33mcommit 9fdc6659fde1968850e17b338d4426fe71b3b69c[m
+Author: Legui <leguigol@hotmail.com>
+Date:   Thu Oct 19 16:48:40 2023 -0300
+
+    graba las vacunas falta mostrar los tildes
+
+[33mcommit 2a01190c9618f64c81270d0c06f298d7590400cb[m
+Author: legui <leguigol@hotmail.com>
+Date:   Thu Oct 19 00:31:25 2023 -0300
+
+    agregando el esquema de vacunacion
+
+[33mcommit c273cfd001b76db57e78c22a9d286ac9ba848633[m
+Author: legui <leguigol@hotmail.com>
+Date:   Thu Oct 19 00:29:14 2023 -0300
+
+    agregando el esquema de vacunacion
+
+[33mcommit 1102284e3e85d443ffa04e9c12053e3cbfdbf43e[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Oct 6 20:36:02 2023 -0300
+
+    primer commit
+
+[33mcommit f28c416489fd20e8af71d0b7d430bbaa11c13783[m
+Author: legui <leguigol@hotmail.com>
+Date:   Fri Oct 6 20:34:45 2023 -0300
+
+    first commit
