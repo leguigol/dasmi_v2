@@ -127,14 +127,14 @@
                 <div class="col-md-2">
                     {!! Form::text('observaciones',$turno->observa,['class'=>'form-control','id'=>'observaciones']) !!}
                 </div>
-                @if ($turno->afiliado=="")                    
+                <!-- @if ($turno->afiliado=="")                    
                     <div class="col-md-1">
                         <label>ENFERMERIA:</label>
                     </div>
                     <div class="col-md-1">
-                        {!! Form::select('enfermeria',['SI' => 'S','NO'=>'N'],'S',['class'=>'form-control','id'=>'enfermeria']) !!}
+                        {!! Form::select('enfermeria',['SI' => 'S','NO'=>'N'],'N',['class'=>'form-control','id'=>'enfermeria']) !!}
                     </div>
-                @endif    
+                @endif     -->
             </div>   
             @if(empty($info))
 

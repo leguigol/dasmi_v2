@@ -103,44 +103,44 @@ class TurnosController extends Controller
         $turno->observa=$request->observaciones;
         $turno->save();
 
-        if($request->enfermeria=="SI"){
-            $fechahora=$turno->fechahora;
+        // if($request->enfermeria=="SI"){
+        //     $fechahora=$turno->fechahora;
         
-            $nuevafecha1=Carbon::create($fechahora);
-            $nuevafecha2=Carbon::create($fechahora);
+        //     $nuevafecha1=Carbon::create($fechahora);
+        //     $nuevafecha2=Carbon::create($fechahora);
 
-            $nuevafecha1=$nuevafecha1->subMinutes(10);
-            $nuevafecha2=$nuevafecha2->subMinute(1);
+        //     $nuevafecha1=$nuevafecha1->subMinutes(10);
+        //     $nuevafecha2=$nuevafecha2->subMinute(1);
             
-            $time1=$nuevafecha1->toDateTimeString();
-            // $time2=$nuevafecha2->toDateTimeString();
+        //     $time1=$nuevafecha1->toDateTimeString();
+        //     // $time2=$nuevafecha2->toDateTimeString();
             
-            // $time1b=substr($time1,11,8);
-            // $time2b=substr($time2,11,8);
-            // //saco id de enfermeria
+        //     // $time1b=substr($time1,11,8);
+        //     // $time2b=substr($time2,11,8);
+        //     // //saco id de enfermeria
     
-            $idenfe=Medico::where('medico_apellido','like','ENFER%')
-            ->where('centro_id','=',Auth::user()->centro->id)
-            ->select('id')
-            ->first();
+        //     $idenfe=Medico::where('medico_apellido','like','ENFER%')
+        //     ->where('centro_id','=',Auth::user()->centro->id)
+        //     ->select('id')
+        //     ->first();
    
-            $turenf=Turno::where('centro_id','=',Auth::user()->centro->id)->
-                            where('medico_id','=',$idenfe->id)->
-                            whereDate('fechahora','=',$nuevafecha1->format('Y-m-d'))->
-                            whereTime('fechahora','=',$time1)->
-                            get();    
+        //     $turenf=Turno::where('centro_id','=',Auth::user()->centro->id)->
+        //                     where('medico_id','=',$idenfe->id)->
+        //                     whereDate('fechahora','=',$nuevafecha1->format('Y-m-d'))->
+        //                     whereTime('fechahora','=',$time1)->
+        //                     get();    
             
-            if($turenf->count()==0){
-                return view('turnos.errores')->with('info','NO HAY AGENDA DE ENFERMERIA');
-            }else{
-                $firstenf=$turenf->first();
-                $turenf2=Turno::find($firstenf->id);
-                $turenf2->padron_id=$request->padronid;
-                $turenf2->telefono=$request->telefono;
-                $turenf2->observa=$request->observaciones;
-                $turenf2->save();
-            }    
-        }    
+        //     if($turenf->count()==0){
+        //         return view('turnos.errores')->with('info','NO HAY AGENDA DE ENFERMERIA');
+        //     }else{
+        //         $firstenf=$turenf->first();
+        //         $turenf2=Turno::find($firstenf->id);
+        //         $turenf2->padron_id=$request->padronid;
+        //         $turenf2->telefono=$request->telefono;
+        //         $turenf2->observa=$request->observaciones;
+        //         $turenf2->save();
+        //     }    
+        // }    
         //Grabo enfermeria
 
 

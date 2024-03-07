@@ -19,13 +19,13 @@
         </div>
         <div class="row">
             <div class="col-md-4">                
-                {!! Form::text('afiliado','',['class'=>'form-control','id'=>'afiliado']) !!}
+                {!! Form::text('afiliado','',['class'=>'form-control','id'=>'afiliado','required' => 'required']) !!}
             </div>    
             <div class="col-md-4">                
                 {!! Form::text('nombre','',['class'=>'form-control','id'=>'nombres'])!!}
             </div>
             <div class="col-md-1">                
-                {!! Form::text('id','',['class'=>'form-control','id'=>'iden'])!!}
+                {!! Form::text('id','',['class'=>'form-control','id'=>'iden','readonly' => 'readonly'])!!}
             </div>
         </div>
         <div class="row mt-2">

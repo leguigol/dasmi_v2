@@ -393,6 +393,65 @@ return [
                 ],
             ]
         ],
+        [
+            'text'    => 'Turnos',
+            'can'     => 'turnos.ver',  
+            'icon'    => 'fas fa-fw fa-phone',
+            'url'  => '#',
+            'submenu' => [
+                [
+                    'text' => 'Horarios',
+                    'icon' => 'fas fa-fw fa-calendar',
+                    'submenu' => [
+                        [
+                            'text' => 'Asignar Horarios',
+                            'route' => 'horario.index',
+                        ],
+                        [
+                            'text' => 'Ver Horarios',
+                            'route' => 'horario.listar',
+                        ],
+                    ],
+                ],    
+                [
+                    'text' => 'Agenda',
+                    'icon' => 'fas fa-fw fa-solid fa-book-medical',
+                    'submenu' => [
+                        [
+                            'text' => 'Generar Agenda',
+                            'route' => 'agenda.index',
+                        ],
+                        [
+                            'text' => 'Borrar Agenda',
+                            'route' => 'agenda.borrar',
+                        ],
+                        [
+                            'text' => 'Genera Dia',
+                            'route' => 'horario.dia',
+                        ],
+    
+                    ]
+                ],
+                [
+                    'text' => 'Grilla de turnos',
+                    'icon' => 'fas fa-fw fa-address-book',
+                    'submenu' => [
+                        [
+                            'text' => 'Turnos por Medico',
+                            'route' => 'turnos.xmedico',
+                        ],
+                        [
+                            'text' => 'Turnos por Fecha',
+                            'route' => 'turnos.xfecha',
+                        ],
+                        [
+                            'text' => 'Turnos por Afiliado',
+                            'route' => 'turnos.xafiliado',
+                        ],
+                    ]
+                ],
+            ],
+        ],    
     ],
 
     /*
