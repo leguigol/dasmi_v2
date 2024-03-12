@@ -29,10 +29,10 @@
                 </div>  
                 <div class="row mt-2">
                   <div class="col-md-2">    
-                    <label class="input-group-text" for="inputGroupSelect01">Fecha</label>
+                    <label class="input-group-text" for="inputGroupSelect01">Fecha-Hora</label>
                   </div>              
                   <div class="col-md-10">    
-                    <input type="date" class="form-control" name="fecha" value="{{date('Y-m-d')}}" readonly>
+                    <input type="datetime" class="form-control" name="fecha" value="{{date('Y-m-d H:i:s')}}" readonly>
                   </div>              
                 </div>  
                 <div class="row mt-2">

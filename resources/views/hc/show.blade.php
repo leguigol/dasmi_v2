@@ -37,10 +37,10 @@
                 </div>  
                 <div class="row mt-2">
                   <div class="col-md-2">    
-                    <label class="input-group-text" for="inputGroupSelect01">Fecha</label>
+                    <label class="input-group-text" for="inputGroupSelect01">Fecha-hora</label>
                   </div>              
                   <div class="col-md-10">    
-                    <input type="date" class="form-control" name="fecha" value="{{$evolucion->fecha}}" disabled>
+                    <input type="datetime" class="form-control" name="fecha" value="{{date('Y-m-d\ H:i:s', strtotime($evolucion->fecha))}}" disabled>
                   </div>              
                 </div>  
                 <div class="row mt-2">

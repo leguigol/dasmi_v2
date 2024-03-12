@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('evoluciones', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('padron_id');
-            $table->date('fecha');
+            $table->datetime('fecha');
             $table->string('subjetivo');
             $table->string('objetivo');
             $table->unsignedBigInteger('medico_id');
